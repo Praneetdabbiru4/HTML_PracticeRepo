@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+		color: white;
+    	padding-top:100px;
+    	align-items: center;
+        justify-content: center;
+        display: flex;
+        top: calc(25% - 50px);
+        left: calc(40% - 50px);
+    }
+    
+    #yellow-section {
+      height: 80%;
+      background-color: yellow;
+    }
+    
+    #red-section {
+      height: 20%;
+      background-color: red;
+    }
+    
+    #triangle {
+      width: 0;
+      height: 0;
+      border-left: 80px solid transparent ;
+      border-right: 80px solid transparent;
+      border-bottom: 20px solid transparent ;
+      border-top : 60px solid yellow ;
+      position: absolute;
+      align-items: center;
+	  justify-content: center;
+      display: flex;
+      top: calc(90% - 50px);
+      left: calc(48% - 50px);
+   
+  
+    }
+    
+    #circle {
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      opacity: 0.3;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(41% - 50px);
+      left: calc(50% - 50px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="yellow-section">
+    <h1>Pinak Idea Lab</h1>
+  </div>
+  <div id="red-section">
+    <div id="triangle"></div>
+  </div>
+  <div id="circle">: )</div>
+</body>
+</html>
